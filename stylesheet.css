@@ -1,1 +1,18 @@
 
+* {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-container {
+    gap: 1px;
+    border: 1px solid;
+}
+.grid-item {
+    border: 3px solid;
+    padding: 0;
+    margin: 0;
+    height: 15px;
+    width: 15px;
+    background-color: aqua;
+}
